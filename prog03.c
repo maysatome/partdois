@@ -5,15 +5,14 @@
 %d	Tipo inteiro decimal com um sinal.
 %i	Tipo inteiro decimal com um sinal.
 %е	scientific notation
-%Е	scientific notation
 %f	Número decimal de ponto flutuante.
 %о	Um inteiro não assinado octal.
 %s	Uma seqüência de caracteres.
-%u	Número decimal do tipo inteiro sem sinal.
 %х	Um inteiro hexadecimal sem sinal (letra minúscula).
 %Х	Um inteiro hexadecimal sem sinal (letra maiúscula)
-%р	Exibe o valor do ponteiro.
-%%	Выводит символ %
+
+for more information, please see at:
+http://www.cplusplus.com/reference/cstdio/printf/
 */
 
 #include <stdio.h>
@@ -21,7 +20,7 @@
 int main ()
 
 {
-int decimal_base_number = 3;
-
-printf();
+  int i = 21;
+  printf ("Some different radices: %d %x %o %#x %#o \n", i, i, i, i, i);
+  printf();
 }
