@@ -5,6 +5,17 @@
 int main ()
 {
 
- printf ("1 valor sera %d\n", 1);
+ printf ("valor sera %d\n", 1);
+ printf ("valor sera %d\n", 2);
+ printf ("valor sera %d\n", 3);
+ printf ("valor sera %d\n", 4);
+ printf ("valor sera %d\n", 5);
+ printf ("valor sera %d\n", 6);
+ printf ("valor sera %d\n", 7);
+ printf ("valor sera %d\n", 8);
+ printf ("valor sera %d\n", 9);
+ printf ("valor sera %d\n", 10);
+ 
+ 
  return 0; 
 }
