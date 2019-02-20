@@ -6,9 +6,13 @@
 // e) O seno da diferença do primeiro número pelo segundo;
 // f) O módulo do primeiro número.
 
+// http://www.cplusplus.com/reference/cmath/
+// https://www.geeksforgeeks.org/c-library-math-h-functions/
+
 #include <stdio.h>
 
 int main ()
 {
+
 
 }
