@@ -18,6 +18,7 @@ int main ()
 {
   int i = 21;
   printf ("Some different radices: %d %x %o %#x %#o \n", i, i, i, i, i);
+  return 0;
 }
 
 /* THE OUTPUT OF THE PROGRAM
