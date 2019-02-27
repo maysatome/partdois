@@ -4,23 +4,18 @@
 int main ()
 {
 
-int i, j;
+    int n1, n2;
+    printf ("Digite o primeiro numero e pressione Enter: \n");
+    scanf ("%d", &n1);
+    printf ("Digite o segundo numero e pressione Enter: \n");
+    scanf ("%d", &n2);
 
-//for (i=0; i>j; i++);
-
-printf ("Digite o primeiro numero e pressione Enter: \n");
-scanf ("%d", &i);
-printf ("Digite o segundo numero e pressione Enter: \n");
-scanf ("%d", &j);
-
-	if (i < j)  //print ("Numero 1 menor que o 2");
-
+	if (n1 < n2)  //print ("Numero 1 menor que o 2");
 	{
-for(int val = i; val<j; i++)
-
-        printf ("%d ", val);
+        for(int i = n1; i<n2; i++)
+           {
+               printf ("%d ",i);
+           }
 	}
-
-
-return 0;
+    return 0;
 }
