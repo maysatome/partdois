@@ -18,12 +18,18 @@ int main ()
            }
 	}
 
-    else {
+     else if (n1 > n2)
+     {
         for(i = n1; i<=n2; i--)
            {
                printf ("%d ",i);
            }
 	}
 
+    else
+    {
+         printf("valores iguais");
+    }
+printf("\n");
     return 0;
 }
