@@ -3,22 +3,24 @@
 
 int main ()
 {
-	
+
 int i, j;
 
 //for (i=0; i>j; i++);
 
 printf ("Digite o primeiro numero e pressione Enter: \n");
-scanf ("%lf", &i);
+scanf ("%d", &i);
 printf ("Digite o segundo numero e pressione Enter: \n");
-scanf ("%lf", &j);
-	
+scanf ("%d", &j);
+
 	if (i < j)  //print ("Numero 1 menor que o 2");
-	
+
 	{
-		printf ("Lista de valores de i ate j: \n ", i++);
+for(int val = i; val<j; i++)
+
+        printf ("%d ", val);
 	}
-	
-	
-return 0;	
+
+
+return 0;
 }
