@@ -4,7 +4,7 @@
 int main ()
 {
 
-    int n1, n2;
+    int n1, n2, i;
     printf ("Digite o primeiro numero e pressione Enter: \n");
     scanf ("%d", &n1);
     printf ("Digite o segundo numero e pressione Enter: \n");
@@ -12,10 +12,18 @@ int main ()
 
 	if (n1 < n2)  //print ("Numero 1 menor que o 2");
 	{
-        for(int i = n1; i<n2; i++)
+        for(i = n1; i<=n2; i++)
            {
                printf ("%d ",i);
            }
 	}
+
+    else {
+        for(i = n1; i<=n2; i--)
+           {
+               printf ("%d ",i);
+           }
+	}
+
     return 0;
 }
