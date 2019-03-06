@@ -11,7 +11,7 @@ void main(){
     int i;
     int user_length = 0;
     printf("Please, input the array length (length)");
-    while(user_length >0)
+    while(user_length < 1)
         scanf("%d",&user_length);
 
     int * array = malloc(user_length * sizeof(double));
@@ -20,7 +20,7 @@ void main(){
   for (i = 0; i <user_length; i ++)
   {
     printf("input %d-th value : ", i+1);
-    scanf("%lf", &array[i]);
+    scanf("%d", &array[i]);
 
   }
 
