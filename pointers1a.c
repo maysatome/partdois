@@ -1,3 +1,7 @@
+#include<stdio.h>
+// the code execution visualisation
+// http://pythontutor.com/c.html#mode=display
+
 void main()
 {
 int a,b,*c;
